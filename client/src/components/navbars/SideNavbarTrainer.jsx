@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, Dumbbell, Users, MessagesSquare } from "lucide-react";
+import { LayoutDashboard, Dumbbell, Users } from "lucide-react";
 
 const SideNavbarMember = () => {
   const location = useLocation();
@@ -63,7 +63,7 @@ const SideNavbarMember = () => {
                 <h1 className={`xl:text-base text-sm font-semibold hidden md:block ${selectedIcon === "programs" ? "text-black" : ""}`}>PT Programs</h1>
               </li>
             </Link>
-            <Link to="/trainer/chat">
+            {/* <Link to="/trainer/chat">
               <li
                 onClick={() => handleIconClick("chat")}
                 className={`w-full mb-5 h-14 rounded-lg gap-4 flex md:p-5 transition duration-300 ${selectedIcon === "chat" ? "bg-rex-green" : ""} items-center justify-center md:justify-start md:pl-2 lg:pl-9 `}
@@ -71,7 +71,7 @@ const SideNavbarMember = () => {
                 <MessagesSquare color={iconColor("chat")} size={23} />
                 <h1 className={`xl:text-base text-sm font-semibold hidden md:block ${selectedIcon === "chat" ? "text-black" : ""}`}>Messages</h1>
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, MessagesSquare, CalendarDays } from "lucide-react";
+import { LayoutDashboard, CalendarDays } from "lucide-react";
 
 const SideNavbarMember = () => {
   const location = useLocation();
@@ -54,7 +54,7 @@ const SideNavbarMember = () => {
                 <h1 className={`xl:text-base text-sm font-semibold hidden md:block ${selectedIcon === "progress" ? "text-black" : ""}`}>My progress</h1>
               </li>
             </Link>
-            <Link to="/member/chat">
+            {/* <Link to="/member/chat">
               <li
                 onClick={() => handleIconClick("chat")}
                 className={`w-full mb-5 h-14 rounded-lg gap-4 flex md:p-5 transition duration-300 ${selectedIcon === "chat" ? "bg-rex-green" : ""} items-center justify-center md:justify-start md:pl-2 lg:pl-9 `}
@@ -62,7 +62,7 @@ const SideNavbarMember = () => {
                 <MessagesSquare color={iconColor("chat")} size={23} />
                 <h1 className={`xl:text-base text-sm font-semibold hidden md:block ${selectedIcon === "chat" ? "text-black" : ""}`}>Messages</h1>
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </div>
