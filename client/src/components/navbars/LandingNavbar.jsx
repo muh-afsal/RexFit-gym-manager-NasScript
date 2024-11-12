@@ -9,7 +9,7 @@ const LandingNavbar = () => {
         <div className="flex justify-around items-center w-full mr-6 text-white">
           <RexFitLogo />
 
-          <nav className=" flex gap-6 md:gap-24 justify-center ">
+          <nav className=" md:flex gap-6 md:gap-24 justify-center hidden">
             <ul className="flex space-x-2 font-semibold text-sm">
              Home 
             </ul>
@@ -20,6 +20,11 @@ const LandingNavbar = () => {
              About 
             </ul>
           </nav>
+          <div className="flex gap-5 mr-[-40px]">
+
+          <h1>Signup</h1>
+          <h1>login</h1>
+          </div>
         <ThemeToggle />
         </div>
       </div>
