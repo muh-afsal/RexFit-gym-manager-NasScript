@@ -167,7 +167,7 @@ const MemberDashboard = () => {
             <h1 className="text-lg mt-3">Programs</h1>
             <div className="grid grid-cols-3 gap-4 mt-4">
               {programs.map((program) => (
-                <div key={program._id} className="p-4 border rounded-lg shadow-sm dark:border-neutral-700">
+                <div key={program._id} className="p-4 border rounded-lg shadow-sm dark:border-neutral-800 dark:bg-neutral-900 bg-neutral-100 hover:bg-neutral-200 hover:shadow-[0px_0px_31px_1px_#00000024]">
                   <h2 className="text-xl font-semibold">{program.title}</h2>
                   <img src={program.image} alt={program.title} className="w-full h-40 object-cover rounded-lg mt-2" />
                   <div className="flex justify-end pr-3 py-2 mt-2">
