@@ -5,7 +5,7 @@ A comprehensive Gym Management application designed for fitness clubs and gyms, 
 
 ## ScreenRcord & Demo 🎥
 
-- **Frontend Live Demo**: [RexFit](https://rex-fit-nas-script-mern.vercel.app/)
+- **Frontend Live Demo**: [RexFit](https://rex-fit-gym-manager-nas-script.vercel.app)
 - **Video Walkthrough**: [YouTube Demo](https://youtu.be/WecWIs6F58E)
 
 ## Features 🚀
